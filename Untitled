@@ -1,0 +1,146 @@
+I have downloaded a full static website using HTTrack.
+All pages and features are currently working, but the codebase is messy, duplicated, and poorly structured.
+
+I want you to refactor this project like a senior frontend architect.
+
+🎯 Primary Goals
+
+Clean, scalable, production-ready folder structure.
+
+Remove redundancy and duplicate assets.
+
+Improve maintainability and readability.
+
+Preserve 100% functionality and design.
+
+Prepare it for future scaling or migration (React / Next.js / CMS ready).
+
+🏗 Step 1: Audit Phase
+
+Analyze all HTML, CSS, JS, images, fonts, and external dependencies.
+
+Detect:
+
+Duplicate CSS/JS files
+
+Unused assets
+
+Inline styles/scripts
+
+Repeated code across pages
+
+Hardcoded paths
+
+Provide a short technical audit summary before restructuring.
+
+📁 Step 2: Professional Folder Structure
+
+Refactor into this structure (or improve if needed):
+
+/root
+  /assets
+    /css
+    /js
+    /images
+    /fonts
+    /icons
+  /pages
+  /partials (header, footer, reusable sections)
+  index.html
+
+Rules:
+
+Centralize global styles into main.css
+
+Separate vendor CSS/JS from custom files
+
+Create modular JS files (navigation.js, slider.js, form.js, etc.)
+
+Use relative clean paths
+
+🧠 Step 3: Code Quality Improvements
+HTML
+
+Use semantic tags (header, section, article, nav, footer)
+
+Remove unnecessary div wrappers
+
+Improve indentation & formatting
+
+Ensure accessibility (alt tags, labels, aria attributes)
+
+CSS
+
+Remove unused CSS rules
+
+Group related styles
+
+Use consistent naming (BEM methodology preferred)
+
+Remove duplicate selectors
+
+Extract inline styles into CSS files
+
+JavaScript
+
+Remove unused scripts
+
+Modularize logic
+
+Avoid global variables
+
+Wrap scripts in IIFE or modules
+
+Improve readability and comments
+
+⚡ Step 4: Performance Optimization
+
+Optimize image folder structure
+
+Suggest image compression improvements
+
+Minify CSS/JS (keep original readable version)
+
+Remove render-blocking resources if possible
+
+Improve loading order (defer, async)
+
+🔗 Step 5: Internal Linking & Path Refactor
+
+Fix all asset paths after restructuring
+
+Ensure all navigation links work
+
+Ensure forms and scripts function correctly
+
+Validate console has zero errors
+
+📊 Step 6: Output Required
+
+After refactor:
+
+Show final folder structure
+
+Provide list of:
+
+Removed files
+
+Merged files
+
+Optimizations done
+
+Mention performance improvements
+
+Confirm all features still work
+
+🚫 Strict Rules
+
+Do NOT change UI/UX
+
+Do NOT remove required scripts
+
+Do NOT modify business logic
+
+Preserve SEO meta tags
+
+Keep responsiveness intact
